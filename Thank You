@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You for Your Purchase</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        .header {
+            background: #FF6F61;
+            color: white;
+            padding: 15px 0;
+            border-radius: 5px 5px 0 0;
+        }
+        .content {
+            margin: 20px 0;
+        }
+        .footer {
+            margin: 20px 0;
+        }
+        .button {
+            background: #FF6F61;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .button:hover {
+            background: #e65c50;
+        }
+        .social-links a {
+            margin: 0 10px;
+            color: #FF6F61;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Thank You for Your Purchase!</h1>
+        </div>
+        <div class="content">
+            <p>Dear Customer,</p>
+            <p>We are thrilled to have you as a customer and truly appreciate your business. Your order is being processed, and you will receive a confirmation email shortly.</p>
+            <p>If you have any questions or need further assistance, please do not hesitate to contact our support team.</p>
+            <a href="your-website-link" class="button">Continue Shopping</a>
+        </div>
+        <div class="footer">
+            <p>Follow us on social media:</p>
+            <div class="social-links">
+                <a href="your-facebook-link">Facebook</a> |
+                <a href="your-twitter-link">Twitter</a> |
+                <a href="your-instagram-link">Instagram</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
